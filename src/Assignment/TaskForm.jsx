@@ -21,6 +21,7 @@ const task = () => {
   }
 
   function taskCounter(status) {
+      console.log("1234")
     if (status) {
       updateItem(item - 1);
     } else {
